@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypingCodeLibrary", "TypingCodeLibrary\TypingCodeLibrary.csproj", "{029909A2-59EF-4A3A-9B1F-0117462D90F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI_Form", "UI_Form\UI_Form.csproj", "{3BB76337-41EA-4648-BE56-DBD4375BF343}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{029909A2-59EF-4A3A-9B1F-0117462D90F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029909A2-59EF-4A3A-9B1F-0117462D90F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029909A2-59EF-4A3A-9B1F-0117462D90F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029909A2-59EF-4A3A-9B1F-0117462D90F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB76337-41EA-4648-BE56-DBD4375BF343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB76337-41EA-4648-BE56-DBD4375BF343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB76337-41EA-4648-BE56-DBD4375BF343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB76337-41EA-4648-BE56-DBD4375BF343}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD544865-2F85-49F4-B7B6-0F4327D0808B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+C:\Users\angiri\source\repos\TypingCode\TypingCodeLibrary\bin\Debug\netstandard2.0\TypingCodeLibrary.deps.json
+C:\Users\angiri\source\repos\TypingCode\TypingCodeLibrary\bin\Debug\netstandard2.0\TypingCodeLibrary.dll
+C:\Users\angiri\source\repos\TypingCode\TypingCodeLibrary\bin\Debug\netstandard2.0\TypingCodeLibrary.pdb
+C:\Users\angiri\source\repos\TypingCode\TypingCodeLibrary\obj\Debug\netstandard2.0\TypingCodeLibrary.csprojAssemblyReference.cache
+C:\Users\angiri\source\repos\TypingCode\TypingCodeLibrary\obj\Debug\netstandard2.0\TypingCodeLibrary.AssemblyInfoInputs.cache
+C:\Users\angiri\source\repos\TypingCode\TypingCodeLibrary\obj\Debug\netstandard2.0\TypingCodeLibrary.AssemblyInfo.cs
+C:\Users\angiri\source\repos\TypingCode\TypingCodeLibrary\obj\Debug\netstandard2.0\TypingCodeLibrary.csproj.CoreCompileInputs.cache
+C:\Users\angiri\source\repos\TypingCode\TypingCodeLibrary\obj\Debug\netstandard2.0\TypingCodeLibrary.dll
+C:\Users\angiri\source\repos\TypingCode\TypingCodeLibrary\obj\Debug\netstandard2.0\TypingCodeLibrary.pdb

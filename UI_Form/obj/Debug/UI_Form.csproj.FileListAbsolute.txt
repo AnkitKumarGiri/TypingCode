@@ -1,0 +1,13 @@
+C:\Users\angiri\source\repos\TypingCode\UI_Form\bin\Debug\UI_Form.exe.config
+C:\Users\angiri\source\repos\TypingCode\UI_Form\bin\Debug\UI_Form.exe
+C:\Users\angiri\source\repos\TypingCode\UI_Form\bin\Debug\UI_Form.pdb
+C:\Users\angiri\source\repos\TypingCode\UI_Form\bin\Debug\TypingCodeLibrary.dll
+C:\Users\angiri\source\repos\TypingCode\UI_Form\bin\Debug\TypingCodeLibrary.pdb
+C:\Users\angiri\source\repos\TypingCode\UI_Form\obj\Debug\UI_Form.csprojAssemblyReference.cache
+C:\Users\angiri\source\repos\TypingCode\UI_Form\obj\Debug\UI_Form.Properties.Resources.resources
+C:\Users\angiri\source\repos\TypingCode\UI_Form\obj\Debug\UI_Form.csproj.GenerateResource.cache
+C:\Users\angiri\source\repos\TypingCode\UI_Form\obj\Debug\UI_Form.csproj.CoreCompileInputs.cache
+C:\Users\angiri\source\repos\TypingCode\UI_Form\obj\Debug\UI_Form.csproj.CopyComplete
+C:\Users\angiri\source\repos\TypingCode\UI_Form\obj\Debug\UI_Form.exe
+C:\Users\angiri\source\repos\TypingCode\UI_Form\obj\Debug\UI_Form.pdb
+C:\Users\angiri\source\repos\TypingCode\UI_Form\obj\Debug\UI_Form.TypingCodeForm.resources
