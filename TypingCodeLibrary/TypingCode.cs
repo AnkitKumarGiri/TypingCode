@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Net;
 
 namespace TypingCodeLibrary
 {
@@ -7,13 +10,26 @@ namespace TypingCodeLibrary
     {
         public TypingCode()
         {
-            Text = new List<string>();
 
         }
-        public List<string> Text { get; set; }
-        public string sayHello()
+        public string FetchText()
         {
-            return "Hello";
+            string result;
+            string url = "https://raw.githubusercontent.com/AnkitKumarGiri/NameInIndiaTeam/master/runme.cpp";
+            var httpRequestInfo = HttpWebRequest.CreateHttp(url);
+            var httpResponseInfo = httpRequestInfo.GetResponse() as HttpWebResponse;
+
+            var responseStream = httpResponseInfo.GetResponseStream();
+
+            using (var sr = new StreamReader(responseStream))
+            {
+                var webPage = sr.ReadToEnd();
+                Debug.WriteLine(webPage.ToString());
+                result = webPage.ToString();
+            }
+
+            return result;
+                return "The quick brown fox jumps over the lazy dog";
         }
     }
 }

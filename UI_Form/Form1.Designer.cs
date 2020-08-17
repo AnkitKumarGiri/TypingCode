@@ -71,9 +71,9 @@
             this.lblStats.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStats.Location = new System.Drawing.Point(552, 540);
             this.lblStats.Name = "lblStats";
-            this.lblStats.Size = new System.Drawing.Size(77, 28);
+            this.lblStats.Size = new System.Drawing.Size(0, 28);
             this.lblStats.TabIndex = 4;
-            this.lblStats.Text = "Stats";
+            this.lblStats.Click += new System.EventHandler(this.lblStats_Click);
             // 
             // timer
             // 

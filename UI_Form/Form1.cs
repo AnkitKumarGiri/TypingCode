@@ -16,7 +16,7 @@ namespace UI_Form
 {
     public partial class TypingCodeForm : Form
     {
-        private readonly string _Text = "the quick brown fox jumped over the lazy dog";
+        private string _Text { get; set; }
         private TypingCode ob;
         private uint charCount { get; set;}
         private List<string> TypeText { get; set; }
@@ -37,7 +37,9 @@ namespace UI_Form
         {
             InitializeComponent();
             ob = new TypingCode();
+            this._Text = ob.FetchText();
             this.TypeText = new List<string>(_Text.Split());
+            this.TypeText = this.TypeText.FindAll(word => word != " ");
             this.txtPane.Text = _Text;
             this.charCount = 0;
             this.TimeLimit = 60;
@@ -47,7 +49,9 @@ namespace UI_Form
         private string GetStats()
         {
             double words = this.charCount / 5.0;
-
+            double minutes = this.timeElapsed / 60.0;
+            double wpm = words / minutes;
+            return String.Format("RESULT\n\rWPM: {0}", (int)wpm);
         }
         private void ShowTime()
         {
@@ -63,8 +67,7 @@ namespace UI_Form
             this.txtPane.Text = "TIME UP!";
             this.timer.Stop();
             this.txtInput.Enabled = false;
-            this.lblStats.Text = "Stats:\n\r";
-            //lblStats.Text += getStats();
+            lblStats.Text = GetStats();
         }
 
         private void Word_matched()
@@ -123,6 +126,9 @@ namespace UI_Form
            this.ShowTime();
         }
 
-      
+        private void lblStats_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
